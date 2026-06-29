@@ -1,0 +1,38 @@
+{
+  "id": "ewing-survivorship-late-effects-handoff-020",
+  "title": "Distribute to survivors via partner; record attested usefulness outcomes (de-identified)",
+  "project": "ewing-survivorship-late-effects",
+  "type": "maintenance",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma",
+    "governance"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "The closing deed for ewing-survivorship-late-effects: dual-signed content reaches real survivors/families through the secured partner and attested usefulness outcomes are recorded de-identified (no PII). HIGH risk-tier; the no-advice framing, both sign-offs, and all guardrails are verified throughout. Gated on the secured partner from task 019.",
+  "objective": "Distribute the dual-signed content to survivors via the partner and record de-identified attested usefulness outcomes.",
+  "acceptanceCriteria": [
+    "Reviewed content reaches real survivors/families through the partner; >=1 attested instance of a survivor/caregiver using it to understand or prepare for survivorship care (de-identified, anonymous feedback, no PII)",
+    "No-advice framing upheld; both sign-offs and guardrails verified throughout",
+    "Outcomes recorded de-identified (reach + attested usefulness, not engagement analytics)"
+  ],
+  "output": "output/handoff-outcomes.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json",
+    "tasks/ewing-survivorship-late-effects-sources-006.json"
+  ]
+}

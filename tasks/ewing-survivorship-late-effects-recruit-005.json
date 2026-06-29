@@ -1,0 +1,38 @@
+{
+  "id": "ewing-survivorship-late-effects-recruit-005",
+  "title": "Reviewer + partner recruitment plan (dated; oncologist + advocate + distribution partner)",
+  "project": "ewing-survivorship-late-effects",
+  "type": "research",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma",
+    "governance"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "ewing-survivorship-late-effects cannot ship HIGH risk-tier patient-facing content without a credentialed pediatric/AYA oncologist and a patient-advocate reviewer, and cannot deliver without a real distribution partner; none is yet secured. This task produces the dated plan to recruit them, recording that all delivery-dependent tasks remain verifiedNeed:false / requestor TO BE SECURED until secured.",
+  "objective": "Write a dated reviewer + partner recruitment plan naming target profiles and milestone dates for securing an oncologist, an advocate, and a distribution partner.",
+  "acceptanceCriteria": [
+    "Names target reviewer profiles (pediatric/AYA oncologist or late-effects specialist; survivor/advocate) and partner profiles (survivorship clinic, sarcoma/AYA advocacy org)",
+    "Fixes the dated plan: reviewers + >=2 partners engaged by 2026-08-31; >=1 oncologist + 1 advocate secured by 2026-10-31; distribution partner by 2026-12-31; build-vs-mothball/pivot decision by ~2027-03-31",
+    "Records that all delivery-dependent tasks stay verifiedNeed:false / TO BE SECURED until secured"
+  ],
+  "output": "output/recruitment-plan.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "CLAUDE.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json"
+  ]
+}

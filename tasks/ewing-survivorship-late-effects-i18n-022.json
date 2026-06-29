@@ -1,0 +1,39 @@
+{
+  "id": "ewing-survivorship-late-effects-i18n-022",
+  "title": "Translations of the library (per-language, reviewer-gated)",
+  "project": "ewing-survivorship-late-effects",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma",
+    "i18n"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "translation",
+  "tokenEstimate": "large",
+  "status": "open",
+  "context": "Reviewer-gated translation of the dual-signed ewing-survivorship-late-effects library into additional languages (a representative, per-language task; the language set is open and not yet enumerated). Translation is a writing deliverable of type writing; each language is HIGH risk-tier and gated by a qualified clinical AND advocate reviewer for that language, preserving the no-advice label and fact-vs-expression copyright firewall (synthesize facts and cite; never reproduce protected guideline text/tables/figures). Only after M6; no language is fabricated here - concrete languages expand on reviewer/partner confirmation. As a translation of our own CC-BY-4.0 content, the translation inherits CC-BY-4.0 (never relicense copyrighted source).",
+  "objective": "Produce a reviewer-gated translation of the published library for one confirmed target language, preserving sourcing, labels, and the dual-review gate.",
+  "acceptanceCriteria": [
+    "Translation preserves every sourceRef, the no-advice label, exposure-keying, and seek-care routing of the source content",
+    "Each language gated by a qualified clinical AND advocate reviewer fluent in that language; neither alone permits publish",
+    "Reading-level and accessibility targets met in the target language; copyright firewall upheld; license remains source-compatible (CC-BY-4.0)",
+    "Only undertaken after M6; concrete languages added only on reviewer/partner confirmation (none fabricated)"
+  ],
+  "output": "output/i18n/<language>/ (representative per-language translation set, reviewer-gated)",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json",
+    "tasks/ewing-survivorship-late-effects-sources-006.json"
+  ]
+}

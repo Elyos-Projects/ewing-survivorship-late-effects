@@ -1,0 +1,40 @@
+{
+  "id": "ewing-survivorship-late-effects-eval-008",
+  "title": "Faithfulness eval harness (LLM-judge + expert spot-check) on the exemplar",
+  "project": "ewing-survivorship-late-effects",
+  "type": "code",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma",
+    "evaluation",
+    "tooling"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "A faithfulness evaluation harness for ewing-survivorship-late-effects that checks each assertion against its cited source, combining an automated LLM-judge with a required expert spot-check. It backs the no-source-no-claim rule and is a precondition for promoting any entry toward publish; it never substitutes for the blocking clinical/advocate sign-off.",
+  "objective": "Build a faithfulness eval harness (LLM-judge + expert spot-check) that scores the exemplar's assertions against their cited sources and reports failures for fix-or-withhold.",
+  "acceptanceCriteria": [
+    "Harness scores each assertion in the exemplar for faithfulness against its cited source and reports a per-assertion result",
+    "Combines an automated LLM-judge pass with a structured expert spot-check step (results recorded)",
+    "Any assertion below the agreed threshold is surfaced for fix-or-withhold; harness runs in CI/repeatably",
+    "Provider-neutral integration; no PII or source full-text leaked into logs"
+  ],
+  "output": "packages/eval: faithfulness eval harness (LLM-judge + expert spot-check) plus an exemplar eval report",
+  "requestor": "Maintainer",
+  "verifiedNeed": false,
+  "outputLicense": "MIT",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json",
+    "tasks/ewing-survivorship-late-effects-sources-006.json"
+  ]
+}

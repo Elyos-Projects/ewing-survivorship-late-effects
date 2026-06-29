@@ -1,0 +1,40 @@
+{
+  "id": "ewing-survivorship-late-effects-gates-004",
+  "title": "CI gates: readability, accessibility (WCAG 2.2 AA), staleness fail-safe (validUntil)",
+  "project": "ewing-survivorship-late-effects",
+  "type": "code",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma",
+    "accessibility",
+    "tooling"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Quality CI gates for ewing-survivorship-late-effects ensuring patient-facing pages stay readable, accessible, and current. They enforce the plain-language target and accessibility commitment and wire the validUntil staleness fail-safe from the schema/policy spec (001) so claims tied to a superseded guideline version are auto-flagged. These complement the safety/licensing gates (003) but do not replace clinical/advocate review.",
+  "objective": "Implement readability (grade 6-8), accessibility (WCAG 2.2 AA), and staleness (validUntil) CI gates with fixtures.",
+  "acceptanceCriteria": [
+    "Readability gate measures reading grade and flags core pages outside the grade 6-8 target",
+    "Accessibility gate checks pages against WCAG 2.2 AA and fails on violations",
+    "Staleness fail-safe: an assertion past its guideline version's validUntil is auto-flagged/withheld until re-verified and re-dual-signed-off",
+    "All gates exercised by passing and failing fixtures in CI"
+  ],
+  "output": "packages/gates plus CI wiring: readability, accessibility (WCAG 2.2 AA), and staleness (validUntil) checks with fixtures",
+  "requestor": "Maintainer",
+  "verifiedNeed": false,
+  "outputLicense": "MIT",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "CLAUDE.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json"
+  ]
+}

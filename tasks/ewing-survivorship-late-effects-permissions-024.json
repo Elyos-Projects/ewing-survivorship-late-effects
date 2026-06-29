@@ -1,0 +1,39 @@
+{
+  "id": "ewing-survivorship-late-effects-permissions-024",
+  "title": "Seek + record permission to reproduce specific high-value source tables/figures",
+  "project": "ewing-survivorship-late-effects",
+  "type": "research",
+  "lane": "donated",
+  "priority": "low",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma",
+    "licensing",
+    "governance"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Governance-routed effort for ewing-survivorship-late-effects to seek and record explicit permission to reproduce specific high-value source tables/figures, undertaken ONLY where synthesis under the fact-vs-expression copyright firewall (synthesize facts and cite; never reproduce protected guideline text/tables/figures) is insufficient. It never relaxes the firewall unilaterally; any reproduction requires recorded, source-compatible permission.",
+  "objective": "Seek and record explicit, source-compatible permission to reproduce specific high-value tables/figures where synthesis is insufficient.",
+  "acceptanceCriteria": [
+    "Undertaken only where synthesis is demonstrably insufficient; governance-routed decision recorded",
+    "Permission requests and outcomes recorded per source with the granted license terms",
+    "Any reproduced element carries recorded permission and attribution; firewall otherwise upheld"
+  ],
+  "output": "output/permissions-ledger.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json",
+    "tasks/ewing-survivorship-late-effects-sources-006.json"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "ewing-survivorship-late-effects-gates-003",
+  "title": "CI gates: citation-coverage, no-advice-label, source-similarity, open-access source allowlist",
+  "project": "ewing-survivorship-late-effects",
+  "type": "code",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma",
+    "safety",
+    "tooling"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Blocking safety/licensing CI gates for ewing-survivorship-late-effects, the top control protecting HIGH risk-tier patient-facing health content. They mechanically enforce the schema/policy spec (001): every clinical assertion sourced, the mandatory no-advice label present, the binding cancer data guardrail (open-access/aggregate/de-identified sources ONLY; controlled-access dbGaP/EGA and any identifiable patient data OUT OF SCOPE), and the fact-vs-expression copyright firewall (synthesize facts and cite; never reproduce protected guideline text/tables/figures). These gates run before any content can be considered shippable and back the blocking dual-review gate where no patient-facing page ships without BOTH a credentialed pediatric/AYA oncologist AND a patient-advocate version-scoped sign-off (neither alone suffices).",
+  "objective": "Implement the blocking safety/licensing CI gates (citation-coverage, no-advice-label, source-similarity, open-access source allowlist) with fixtures, so unsafe or improperly licensed content fails the build.",
+  "acceptanceCriteria": [
+    "Citation-coverage gate: any clinical assertion without a resolvable sourceRef fails the build",
+    "No-advice-label gate: every published page must carry the 'Informational, not medical advice - consult your care team' label; a missing label fails the build",
+    "Source-similarity gate: passages too close to source text (copyright firewall) over threshold fail and route to review",
+    "Open-access source allowlist gate: a provenance record pointing at a controlled-access (dbGaP/EGA), individual-level, or identifiable source fails the build",
+    "All four gates exercised by passing and failing fixtures in CI; reviewed by the maintainer and a credentialed oncologist"
+  ],
+  "output": "packages/gates plus CI wiring: citation-coverage, no-advice-label, source-similarity, and open-access-allowlist checks with passing/failing fixtures",
+  "requestor": "Maintainer",
+  "verifiedNeed": false,
+  "outputLicense": "MIT",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "CLAUDE.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ewing-survivorship-late-effects-sources-006",
+  "title": "Source vetting + provenance for the exemplar (verify reuse terms; record license status)",
+  "project": "ewing-survivorship-late-effects",
+  "type": "data",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma",
+    "provenance",
+    "licensing"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "dataset",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Provenance and license vetting for the exemplar late-effect entry of ewing-survivorship-late-effects. It enforces the binding cancer data guardrail (open-access/aggregate/de-identified sources ONLY; controlled-access dbGaP/EGA and any identifiable patient data OUT OF SCOPE) and records per-source reuse terms before any synthesis, supporting the no-source-no-claim rule and the fact-vs-expression copyright firewall (synthesize facts and cite; never reproduce protected guideline text/tables/figures). Only open-access/aggregate/de-identified sources are admitted.",
+  "objective": "Vet and record provenance + license status for every source backing the anthracycline-cardiotoxicity exemplar, rejecting any controlled-access or identifiable source.",
+  "acceptanceCriteria": [
+    "Reuse terms verified and recorded per source (NCI/PDQ public-domain with trademark caveat; COG/ESMO/CCLG/IGHG cited-not-reproduced); only open-access/aggregate/de-identified sources enabled",
+    "Provenance recorded per source (body, document, section, version, retrievedAt, evidenceLevel?, url, licenseStatus)",
+    "Any controlled-access (dbGaP/EGA), individual-level, or identifiable source is rejected by the allowlist",
+    "Reviewed by a credentialed oncologist and the maintainer"
+  ],
+  "output": "output/sources/exemplar-anthracycline-cardiotoxicity.provenance.json",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "CLAUDE.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json"
+  ]
+}

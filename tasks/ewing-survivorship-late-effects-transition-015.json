@@ -1,0 +1,37 @@
+{
+  "id": "ewing-survivorship-late-effects-transition-015",
+  "title": "Pediatric->AYA transition module (survivorship care plan, exposure summary, transition to adult care)",
+  "project": "ewing-survivorship-late-effects",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "The pediatric-to-AYA transition module for ewing-survivorship-late-effects, explaining survivorship care plans and treatment-exposure summaries at the pediatric-to-adult handoff. HIGH risk-tier patient-facing and education-only with the 'Informational, not medical advice - consult your care team' label; every assertion sourced and the fact-vs-expression copyright firewall (synthesize facts and cite; never reproduce protected guideline text/tables/figures) upheld. Publish requires that no patient-facing page ships without BOTH a credentialed pediatric/AYA oncologist AND a patient-advocate version-scoped sign-off (neither alone suffices).",
+  "objective": "Draft the pediatric->AYA transition module covering survivorship care plans, exposure summaries, and the handoff to adult care, fully sourced and dual-signed.",
+  "acceptanceCriteria": [
+    "Explains what a survivorship care plan and a treatment-exposure summary are and why they matter at the pediatric->adult handoff; education-only; routes to the care team/survivorship clinic",
+    "Fully sourced; AYA-appropriate voice; caregiver framing included; no-advice label; grade 6-8; WCAG 2.2 AA",
+    "Passes all automated gates and carries both oncologist + advocate version-scoped sign-offs"
+  ],
+  "output": "output/entries/transition-pediatric-to-aya.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json",
+    "tasks/ewing-survivorship-late-effects-sources-006.json"
+  ]
+}
