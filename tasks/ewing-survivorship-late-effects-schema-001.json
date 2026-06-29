@@ -1,0 +1,36 @@
+{
+  "id": "ewing-survivorship-late-effects-schema-001",
+  "title": "Content + provenance schema and safety/licensing policy spec (cancer guardrails, no-advice, dual-review, fact-vs-expression)",
+  "project": "ewing-survivorship-late-effects",
+  "type": "design-spec",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["health", "oncology", "survivorship", "patient-education", "ewing-sarcoma"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Ewing-Survivorship-Late-Effects is an open, education-only survivorship/late-effects resource library for Ewing sarcoma survivors across the pediatric-to-AYA transition, synthesizing recommendations from vetted bodies (NCI/PDQ, COG Long-Term Follow-Up Guidelines, IGHG, ESMO, CCLG) into plain language. This is HIGH risk-tier, patient-facing health information for a vulnerable population, so safety, provenance, and licensing lead the architecture. Binding cancer guardrails: only open-access/aggregate/de-identified sources; controlled-access (dbGaP/EGA) and any identifiable patient data are OUT OF SCOPE. No medical advice; every assertion sourced; no page ships without BOTH a credentialed oncologist and a patient-advocate sign-off. This cold-start task specifies the content/provenance schema and the safety/licensing policy that all later content and tooling must implement and be tested against, before any patient-facing content is drafted. No partner, clinical reviewer, or advocate reviewer is yet secured.",
+  "objective": "Write the authoritative content + provenance schema and safety/licensing policy: the Late-Effect Entry schema (exposures, sections, per-assertion sourceRefs, provenance fields, mandatory no-advice labels, validUntil staleness, and version-scoped clinical+advocate review), the binding cancer data guardrail and open-access source allowlist, the fact-vs-expression copyright firewall and per-body license posture, the blocking dual-review gate as Definition of Shipped, the explicit out-of-scope set, and the no-PII/no-data-collection stance.",
+  "acceptanceCriteria": [
+    "Defines the Late-Effect Entry schema with exposures[], sections[], assertions[] each carrying >=1 sourceRef, provenance[] (body, document, section, version, retrievedAt, evidenceLevel?, url, licenseStatus), mandatory no-advice labels, validUntil, and a review object requiring version-scoped clinical AND advocate sign-off",
+    "States the binding cancer data guardrail (open-access/aggregate/de-identified ONLY; controlled-access dbGaP/EGA and any identifiable patient data OUT OF SCOPE) and the open-access source allowlist the CI gates enforce",
+    "States the fact-vs-expression copyright firewall (synthesize facts and cite; never reproduce protected guideline text/tables/figures) and the per-body license posture (NCI/PDQ public-domain with trademark/no-endorsement caveat; COG/ESMO/CCLG/IGHG cited-not-reproduced)",
+    "Mandates the 'Informational, not medical advice - consult your care team' label on every page and the blocking dual review gate (credentialed oncologist + patient advocate, both required, maintainer cannot override on substance) as the Definition of Shipped",
+    "Enumerates the explicit out-of-scope set (diagnosis, prognosis, dosing, individualized risk score/calculator, clinical-trial matching) and the no-PII / no-data-collection stance (no accounts, no health intake, anonymous non-profiling feedback)",
+    "Defines the no-source-no-claim rule and the validUntil staleness fail-safe (a claim past its guideline version's validUntil is auto-flagged/withheld until re-verified and re-dual-signed-off)",
+    "Reviewed and signed off by a credentialed pediatric/AYA oncologist (or late-effects specialist) and a patient-advocate reviewer, recorded in the reviewers ledger"
+  ],
+  "resources": [
+    "planning/projects/ewing-survivorship-late-effects/PLAN.md",
+    "planning/ROADMAP.md",
+    "CLAUDE.md",
+    "docs/good-deed-definition.md",
+    "packages/schema/src/schemas.ts"
+  ],
+  "output": "A reviewed schema + policy specification document defining the Late-Effect Entry content/provenance schema, the binding cancer data guardrails and open-access source allowlist, the fact-vs-expression copyright firewall, the no-medical-advice labeling, the blocking dual oncologist+advocate review gate, the out-of-scope set, and the no-PII stance - the contract that the CI gates (ewing-survivorship-late-effects-gates-003/004) and all content tasks (M1+) implement and are verified against.",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0"
+}
