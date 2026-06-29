@@ -1,0 +1,37 @@
+{
+  "id": "ewing-survivorship-late-effects-questions-016",
+  "title": "\"Questions to ask your care team\" sets (per late effect + transition)",
+  "project": "ewing-survivorship-late-effects",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Education-only prompt lists for ewing-survivorship-late-effects that help survivors raise late-effect and transition topics with their care team. HIGH risk-tier patient-facing: explicitly NOT a self-assessment or triage tool, advocate-reviewed for tone, with the 'Informational, not medical advice - consult your care team' label. Publish requires that no patient-facing page ships without BOTH a credentialed pediatric/AYA oncologist AND a patient-advocate version-scoped sign-off (neither alone suffices).",
+  "objective": "Draft 'Questions to ask your care team' sets tied to each late effect and the transition module, education-only and advocate-reviewed.",
+  "acceptanceCriteria": [
+    "Education-only prompt lists tied to each late effect + the transition; NOT a self-assessment or triage checklist",
+    "Advocate-reviewed for tone; sourced where they encode a recommendation; no-advice label present",
+    "Passes all automated gates and carries both oncologist + advocate version-scoped sign-offs"
+  ],
+  "output": "output/entries/questions-to-ask-your-care-team.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json",
+    "tasks/ewing-survivorship-late-effects-sources-006.json"
+  ]
+}

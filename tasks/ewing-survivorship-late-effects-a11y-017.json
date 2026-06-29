@@ -1,0 +1,38 @@
+{
+  "id": "ewing-survivorship-late-effects-a11y-017",
+  "title": "Plain-language (grade 6-8) + WCAG 2.2 AA + health-system-neutrality sweep across the set",
+  "project": "ewing-survivorship-late-effects",
+  "type": "maintenance",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma",
+    "accessibility"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "A cross-cutting plain-language, accessibility, and health-system-neutrality sweep over the full ewing-survivorship-late-effects content set. It enforces grade 6-8 readability and WCAG 2.2 AA and confirms schedules that differ by guideline/country are framed neutrally and cited. It does not alter clinical substance and does not bypass the dual-review gate; any substantive change re-enters review.",
+  "objective": "Sweep the full content set for grade 6-8 readability, WCAG 2.2 AA accessibility, and health-system-neutral framing, with advocate confirmation.",
+  "acceptanceCriteria": [
+    "Every entry meets the grade 6-8 readability target (measured) with advocate confirmation",
+    "Every page passes WCAG 2.2 AA",
+    "Health-system-neutrality framing applied across the set (schedules differ by guideline/country, each cited); no substantive clinical change made without re-entering dual review"
+  ],
+  "output": "PR: plain-language + WCAG 2.2 AA + health-system-neutrality sweep across output/entries/",
+  "requestor": "Maintainer",
+  "verifiedNeed": false,
+  "outputLicense": "MIT",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json",
+    "tasks/ewing-survivorship-late-effects-sources-006.json"
+  ]
+}

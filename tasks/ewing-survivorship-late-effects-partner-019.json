@@ -1,0 +1,38 @@
+{
+  "id": "ewing-survivorship-late-effects-partner-019",
+  "title": "Secure distribution partner/steward + final guardrail + dual sign-off verification",
+  "project": "ewing-survivorship-late-effects",
+  "type": "research",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma",
+    "governance"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Securing a real distribution partner/steward for ewing-survivorship-late-effects and running the final guardrail + dual sign-off verification before any publication. HIGH risk-tier: no HIGH-risk health content publishes to an unvetted channel. Driven by the dated recruitment plan; verifiedNeed flips to true only once a real partner is secured.",
+  "objective": "Secure a distribution partner/steward and complete the final guardrail + dual sign-off verification gating publication.",
+  "acceptanceCriteria": [
+    "A real survivorship clinic / sarcoma-or-AYA advocacy org is secured as distribution partner; steward assigned; verifiedNeed flips to true",
+    "Final verification: all published content carries dual sign-off; cancer data guardrails + copyright firewall + no-PII stance confirmed",
+    "Driven by the dated plan; if no partner by ~2027-03-31, apply the build-vs-mothball/pivot rule (pivot to a trusted patient-education publisher or mothball to maintenance-only, recorded in governance) - never publish HIGH-risk health content to no vetted channel"
+  ],
+  "output": "output/partner-and-final-verification.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json",
+    "tasks/ewing-survivorship-late-effects-sources-006.json"
+  ]
+}

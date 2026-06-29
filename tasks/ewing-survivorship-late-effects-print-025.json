@@ -1,0 +1,37 @@
+{
+  "id": "ewing-survivorship-late-effects-print-025",
+  "title": "Printable, low-bandwidth survivor handout pack (CC-BY)",
+  "project": "ewing-survivorship-late-effects",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "low",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "A printable, low-bandwidth survivor handout pack for ewing-survivorship-late-effects, derived strictly from already dual-signed content. HIGH risk-tier patient-facing: the 'Informational, not medical advice - consult your care team' label and accessibility are re-checked in print form, and any substantive change re-enters the dual-review gate (no patient-facing page ships without BOTH a credentialed pediatric/AYA oncologist AND a patient-advocate version-scoped sign-off (neither alone suffices)).",
+  "objective": "Produce a printable, low-bandwidth handout pack derived from dual-signed content, re-checking label and accessibility.",
+  "acceptanceCriteria": [
+    "Derived only from already dual-signed content; every assertion retains its sourceRef",
+    "No-advice label present in print form; print accessibility/readability re-checked (grade 6-8)",
+    "Any substantive change re-enters dual review; licensed CC-BY-4.0"
+  ],
+  "output": "output/print/survivor-handout-pack.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json",
+    "tasks/ewing-survivorship-late-effects-sources-006.json"
+  ]
+}

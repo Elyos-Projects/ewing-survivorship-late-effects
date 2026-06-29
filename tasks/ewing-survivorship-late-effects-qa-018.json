@@ -1,0 +1,39 @@
+{
+  "id": "ewing-survivorship-late-effects-qa-018",
+  "title": "Full faithfulness eval + a11y/readability audit + staleness fail-safe verification + distribution runbook",
+  "project": "ewing-survivorship-late-effects",
+  "type": "code",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma",
+    "evaluation",
+    "safety"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Publication-readiness QA for the whole ewing-survivorship-late-effects library: faithfulness eval with expert spot-check, full accessibility/readability audit, staleness fail-safe verification, and a distribution runbook. HIGH risk-tier because it certifies patient-facing content; it confirms but never replaces the recorded dual sign-off (no patient-facing page ships without BOTH a credentialed pediatric/AYA oncologist AND a patient-advocate version-scoped sign-off (neither alone suffices)).",
+  "objective": "Run the full faithfulness eval + accessibility/readability audit + staleness fail-safe verification across the set and write the distribution runbook.",
+  "acceptanceCriteria": [
+    "Faithfulness eval across the whole set meets the agreed threshold with expert spot-check; any failing assertion is fixed or withheld",
+    "Full accessibility + readability audits pass; staleness fail-safe verified against a simulated guideline-version update (dependent assertions auto-flag/withhold + require re-dual-sign-off)",
+    "Distribution runbook written; every publish-candidate page has recorded dual sign-off"
+  ],
+  "output": "output/qa/faithfulness-a11y-readability-staleness-report.md plus output/qa/distribution-runbook.md",
+  "requestor": "Maintainer",
+  "verifiedNeed": false,
+  "outputLicense": "MIT",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json",
+    "tasks/ewing-survivorship-late-effects-sources-006.json"
+  ]
+}

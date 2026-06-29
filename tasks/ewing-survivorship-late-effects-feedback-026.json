@@ -1,0 +1,39 @@
+{
+  "id": "ewing-survivorship-late-effects-feedback-026",
+  "title": "Anonymous, no-PII feedback channel + outcome instrumentation",
+  "project": "ewing-survivorship-late-effects",
+  "type": "code",
+  "lane": "donated",
+  "priority": "low",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma",
+    "privacy",
+    "tooling"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "An anonymous, no-PII feedback channel and outcome instrumentation for ewing-survivorship-late-effects, upholding the no-data-collection stance: anonymous only, no profiling analytics, no accounts, no health intake. It measures attested usefulness and reach, not engagement, and stores no identifiable data.",
+  "objective": "Build an anonymous, no-PII feedback channel + outcome instrumentation measuring attested usefulness without profiling.",
+  "acceptanceCriteria": [
+    "Feedback is anonymous with no PII collected; no accounts and no health intake",
+    "No profiling analytics; instrumentation captures attested usefulness and reach, not engagement tracking",
+    "No identifiable data stored or logged; privacy stance verified in tests"
+  ],
+  "output": "packages/feedback: anonymous no-PII feedback channel + outcome instrumentation",
+  "requestor": "Maintainer",
+  "verifiedNeed": false,
+  "outputLicense": "MIT",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "CLAUDE.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json"
+  ]
+}

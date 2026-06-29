@@ -1,0 +1,38 @@
+{
+  "id": "ewing-survivorship-late-effects-ops-021",
+  "title": "Ops runbook + guideline-update review cadence + maintenance rotation + outcome tracking",
+  "project": "ewing-survivorship-late-effects",
+  "type": "maintenance",
+  "lane": "donated",
+  "priority": "medium",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma",
+    "governance"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "Post-delivery sustainment for ewing-survivorship-late-effects: an ops runbook wiring the guideline-update cadence to the staleness fail-safe, a named maintenance rotation, outcome tracking, and a gated process for adding topics/translations. New guideline versions must trigger re-verification and re-dual-sign-off, preserving the HIGH risk-tier discipline.",
+  "objective": "Write the ops runbook covering deploy, source re-verification, the guideline-update cadence, maintenance rotation, outcome tracking, and a gated expansion/translation process.",
+  "acceptanceCriteria": [
+    "Runbook covers deploy, source re-verification, and the guideline-update cadence wired to the staleness fail-safe (new guideline version -> auto-flag dependent assertions -> re-verify -> re-dual-sign-off)",
+    "Named maintenance rotation; outcome tracking (reach via partner, attested usefulness - not engagement)",
+    "Documented, dual-gated process for adding new late-effect topics or translations"
+  ],
+  "output": "output/ops-runbook.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json",
+    "tasks/ewing-survivorship-late-effects-sources-006.json"
+  ]
+}

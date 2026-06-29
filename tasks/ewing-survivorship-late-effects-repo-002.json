@@ -1,0 +1,39 @@
+{
+  "id": "ewing-survivorship-late-effects-repo-002",
+  "title": "pnpm + TS/ESM monorepo + static-site + CI skeleton",
+  "project": "ewing-survivorship-late-effects",
+  "type": "code",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma",
+    "tooling"
+  ],
+  "riskTier": "low",
+  "urgent": false,
+  "deliverable": "pr",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Cold-start toolchain for ewing-survivorship-late-effects, an open, education-only Ewing sarcoma survivorship/late-effects resource library. This is agent-neutral infrastructure only (no patient-facing content), establishing the build on which the safety/licensing CI gates and all later content depend. It must keep the toolchain vendor-neutral and collect no PII / no analytics-by-default per the project's no-data-collection stance.",
+  "objective": "Scaffold a pnpm + TypeScript/ESM monorepo with a static-site package and a green CI skeleton that later safety/licensing and quality gates plug into.",
+  "acceptanceCriteria": [
+    "pnpm workspace with TypeScript/ESM packages builds cleanly (pnpm build && pnpm test && pnpm lint pass)",
+    "Static-site package scaffolded for publishing plain-language survivorship pages (no content shipped yet)",
+    "CI workflow runs build/test/lint on every PR and is green on an empty fixture, with hooks where the safety/licensing and quality gates (003/004) will attach",
+    "No PII collection, no third-party analytics, and no agent/vendor-specific logic in the core toolchain"
+  ],
+  "output": "Repo scaffold: package.json, pnpm-workspace.yaml, tsconfig, packages/site static-site, and .github/workflows/ci.yml",
+  "requestor": "Maintainer",
+  "verifiedNeed": false,
+  "outputLicense": "MIT",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "CLAUDE.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json"
+  ]
+}

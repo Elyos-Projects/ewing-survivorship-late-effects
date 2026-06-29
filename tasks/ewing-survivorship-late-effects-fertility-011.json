@@ -1,0 +1,37 @@
+{
+  "id": "ewing-survivorship-late-effects-fertility-011",
+  "title": "Gonadotoxicity / fertility entry",
+  "project": "ewing-survivorship-late-effects",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "A core HIGH-burden Ewing late-effect entry for ewing-survivorship-late-effects: Awareness of fertility/gonadotoxicity after alkylator exposure. This is HIGH risk-tier patient-facing health information, so it is education-only with the 'Informational, not medical advice - consult your care team' label, every assertion sourced, the fact-vs-expression copyright firewall (synthesize facts and cite; never reproduce protected guideline text/tables/figures) upheld, and out-of-scope content (diagnosis, prognosis, dosing, individual risk score, trial-matching) excluded. Publish requires that no patient-facing page ships without BOTH a credentialed pediatric/AYA oncologist AND a patient-advocate version-scoped sign-off (neither alone suffices); until both are secured, content is drafted/held, not published.",
+  "objective": "Draft the gonadotoxicity/fertility entry, education-only and keyed to alkylator exposure, fully sourced and dual-signed.",
+  "acceptanceCriteria": [
+    "Plain-language, education-only; keyed to alkylator exposure; covers awareness of fertility-preservation as a topic to raise with the care team - no individualized advice or risk figure",
+    "Health-system-neutral where guidance differs; every assertion sourced; no-advice label; grade 6-8; WCAG 2.2 AA",
+    "Passes all automated gates and carries both oncologist + advocate version-scoped sign-offs"
+  ],
+  "output": "output/entries/fertility-gonadotoxicity.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json",
+    "tasks/ewing-survivorship-late-effects-sources-006.json"
+  ]
+}

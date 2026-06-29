@@ -1,0 +1,38 @@
+{
+  "id": "ewing-survivorship-late-effects-exemplar-007",
+  "title": "Exemplar entry: anthracycline cardiotoxicity + cardiac surveillance (internal, watermarked)",
+  "project": "ewing-survivorship-late-effects",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "The end-to-end vertical-slice exemplar for ewing-survivorship-late-effects: one late-effect entry drafted through the full pipeline to prove the safety/provenance/licensing subsystem works before scaling content. It is HIGH risk-tier patient-facing material, so every assertion is sourced, the no-advice label is present, and the fact-vs-expression copyright firewall (synthesize facts and cite; never reproduce protected guideline text/tables/figures) holds. Because dual reviewers are not yet secured, it is held internal and watermarked, NOT published; no patient-facing page ships without BOTH a credentialed pediatric/AYA oncologist AND a patient-advocate version-scoped sign-off (neither alone suffices).",
+  "objective": "Draft the anthracycline-cardiotoxicity + cardiac-surveillance entry end-to-end, fully sourced and passing all automated gates and the faithfulness eval, held as an internal watermarked artifact.",
+  "acceptanceCriteria": [
+    "One late-effect entry drafted end-to-end, fully sourced (every assertion has a sourceRef), passing all automated gates and the faithfulness eval; exposure-keyed ('applies if you received an anthracycline')",
+    "Carries the 'Informational, not medical advice - consult your care team' label and correct red-flag/seek-care framing",
+    "Held internal + watermarked, NOT published (dual reviewers not yet secured); usable for reviewer recruitment",
+    "Kill-gate: if a faithful, fully-sourced, gate-passing exemplar cannot be produced without reproducing protected expression, stop and fix the pipeline before M2"
+  ],
+  "output": "output/entries/anthracycline-cardiotoxicity.internal.md (watermarked, internal-only)",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json",
+    "tasks/ewing-survivorship-late-effects-sources-006.json"
+  ]
+}

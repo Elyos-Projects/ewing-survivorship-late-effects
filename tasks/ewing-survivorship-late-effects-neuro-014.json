@@ -1,0 +1,37 @@
+{
+  "id": "ewing-survivorship-late-effects-neuro-014",
+  "title": "Ototoxicity, vincristine neuropathy, neurocognitive/psychosocial entries",
+  "project": "ewing-survivorship-late-effects",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "health",
+    "oncology",
+    "survivorship",
+    "patient-education",
+    "ewing-sarcoma"
+  ],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "document",
+  "tokenEstimate": "large",
+  "status": "open",
+  "context": "A core HIGH-burden Ewing late-effect entry for ewing-survivorship-late-effects: Ototoxicity (platinum), vincristine neuropathy, and neurocognitive/psychosocial late effects. This is HIGH risk-tier patient-facing health information, so it is education-only with the 'Informational, not medical advice - consult your care team' label, every assertion sourced, the fact-vs-expression copyright firewall (synthesize facts and cite; never reproduce protected guideline text/tables/figures) upheld, and out-of-scope content (diagnosis, prognosis, dosing, individual risk score, trial-matching) excluded. Publish requires that no patient-facing page ships without BOTH a credentialed pediatric/AYA oncologist AND a patient-advocate version-scoped sign-off (neither alone suffices); until both are secured, content is drafted/held, not published.",
+  "objective": "Draft the ototoxicity, vincristine-neuropathy, and neurocognitive/psychosocial sub-entries, each fully sourced, exposure-keyed, and dual-signed.",
+  "acceptanceCriteria": [
+    "Each sub-entry fully sourced and exposure-keyed; no-advice label; seek-care routing for urgent symptoms; grade 6-8; WCAG 2.2 AA",
+    "Psychosocial/AYA mental-health framing reviewed by the advocate for harm-avoidance (no fear/fatalism)",
+    "Dual-signed (oncologist + advocate) and passes all automated gates"
+  ],
+  "output": "output/entries/ototoxicity-neuropathy-neurocognitive-psychosocial.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "CC-BY-4.0",
+  "resources": [
+    "PLAN.md",
+    "TASKS.md",
+    "tasks/ewing-survivorship-late-effects-schema-001.json",
+    "tasks/ewing-survivorship-late-effects-sources-006.json"
+  ]
+}
